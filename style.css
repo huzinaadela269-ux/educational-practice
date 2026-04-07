@@ -128,7 +128,7 @@ height: 38px;
 /* Hero - используем Carousel.png как фон */
 .hero {
   height: 550px;
-  background: url("./img/Group.png") center/cover no-repeat;
+  background: url("./pictures/picter.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-end;
