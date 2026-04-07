@@ -125,3 +125,379 @@ height: 38px;
 
 }
 
+/* Hero - используем Carousel.png как фон */
+.hero {
+  height: 550px;
+  background: url("./img/Group.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10%;
+  height: 550px;
+  position: relative;
+}
+h1 {
+  padding-top: 109px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+.release-date {
+  padding-bottom: 140px;
+}
+.release-date p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Кнопки */
+.btn {
+  padding: 12px 30px;
+  border: 100px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 5px;
+  transition: opacity 0.3s;
+  font-family: var(--font-family);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  margin-bottom: 204px;
+  padding: 9px 29px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  background: #8dd83d;
+  border-radius: 4px;
+}
+.btn-primary-next {
+  margin-bottom: 103px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  background: #8dd83d;
+  border-radius: 4px;
+  width: 170px;
+height: 52px;
+}
+.btn-primary-sled{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 117%;
+color: #fff;
+border-radius: 4px;
+height: 52px;
+background: #8dd83d;
+}
+
+.btn-secondary {
+    padding: 9px 29px;
+  background: #8dd83d;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+}
+
+.btn-dark {
+border-radius: 4px;
+width: 235px;
+height: 52px;
+background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+color: white;
+}
+body {
+  background: #efefef;
+}
+/* Контейнер */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Заголовок игры */
+.game-title-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.game-title-section h2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #435766;
+margin-top: 100px;
+  margin-bottom: 210px;
+}
+
+/* Видео - используем Video.png */
+.video-section {
+  margin-bottom: 80px;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-thumb {
+  width: 100%;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Особенности - используем iw-key-art.png и ranked-callofduty-lead.png */
+.features {
+  margin-bottom: 80px;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text,
+.feature-image {
+  flex: 1;
+}
+
+.feature-text h3 {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+color: #435766;
+padding-right: 126px;
+padding-bottom: 250px;
+}
+
+.feature-image img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Спецификации */
+.specs {
+  text-align: center;
+}
+
+.specs h2 {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+color: #435766;
+padding-bottom: 44px;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.spec-item {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 21px;
+line-height: 114%;
+color: #435766;
+}
+.spec h2{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+color: #435766;
+padding-bottom: 44px;
+}
+
+.specs-buttons {
+  margin-top: 30px;
+}
+
+/* Футер */
+.footer {
+  background: #373a3c;
+  color: white;
+  padding: 60px 40px 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.footer-col h4 {
+  color: #8dd83d;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col li {
+  margin-bottom: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons span {
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #4c5052;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ HEADER ===== */
+@media (max-width: 768px) {
+  header {
+    gap: 0;
+    padding: 12px 20px;
+    flex-wrap: nowrap;
+  }
+
+  /* Показываем гамбургер на мобильных */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Анимация гамбургера в крестик при открытом меню */
+  .menu-toggle:checked + .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-toggle:checked + .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle:checked + .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+  /* Мобильное меню - скрыто по умолчанию */
+  header .right {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #2b2b2b;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+    z-index: 99;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* Показываем меню при checked */
+  .menu-toggle:checked ~ .right {
+    transform: translateY(0);
+  }
+
+  /* Вертикальная навигация */
+  nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+    width: 100%;
+  }
+
+  /* Поиск на всю ширину */
+  .search-bar {
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+
+  /* My Xbox тоже на всю ширину */
+  .my-xbox {
+    width: 100%;
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+}
+
+/* Остальные медиа-запросы */
+@media (max-width: 768px) {
+  .feature-row,
+  .feature-row.reverse {
+    flex-direction: column;
+  }
+
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    justify-content: center;
+    padding-right: 0;
+  }
+}
